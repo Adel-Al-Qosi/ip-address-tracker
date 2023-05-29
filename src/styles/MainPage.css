@@ -85,10 +85,9 @@
         
     }
 
-    .between .p:not(:last-child) {
-        border-right: 1px solid var(--clr-secondary);
-        padding-right: 2rem;
-        width: 20%;
+    .between .p:not(:first-child) {
+        border-left: 1px solid var(--clr-secondary);
+        padding-left: 2rem;
     }
 
 }
